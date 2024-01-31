@@ -63,11 +63,11 @@ function decideSpeed(){
 
 // this generates an id for a circle given the circle's number
 function getId(number){
-    return "circle" + number; () 
+    return "circle" + number; ()
 }
 
 // this adds a circle into the HTML
-function addNewCircleElement(circle, id){
+funtion addNewCircleElement(circle, id){
 
     // this creates the HTML for a new circle element 
     var $circle = $('<div>').attr('id', id)
